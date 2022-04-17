@@ -57,3 +57,61 @@ body {
   z-index: 10001;
   cursor: pointer;
   display: none; }
+
+.home {
+  padding: 12rem 14%;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 6rem;
+  align-items: center; }
+  .home__text h5 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0 0 2rem; }
+  .home__text h1 {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 0 2rem; }
+  .home__text h6 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2.5rem; }
+  .home__text p {
+    max-width: 47rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ffffffcc; }
+  .home__text span {
+    color: #2fbf71; }
+  .home__text .btn {
+    background: #2fbf71;
+    color: #fff;
+    box-shadow: 4px 4px #fff;
+    padding: 0 2.5rem;
+    line-height: 4.2rem;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all ease 0.2s;
+    font-weight: 400;
+    letter-spacing: 2px; }
+  .home__text .btn:hover {
+    background: #fff;
+    color: #2fbf71;
+    box-shadow: 4px 4px #2fbf71; }
+
+.home-img img {
+  width: 70%;
+  border-radius: 10%;
+  margin-left: 13rem;
+  max-width: 100%;
+  height: auto; }
