@@ -13,4 +13,47 @@ html {
 
 body {
   box-sizing: border-box;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background: #10101a;
+  color: #fff; }
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #10101a;
+  padding: 2.4rem 14%;
+  transition: 0.3s; }
+  .header__logo {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600; }
+    .header__logo span {
+      color: #2fbf71; }
+
+.navbar {
+  list-style-type: none;
+  display: flex; }
+  .navbar__link {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    transition: 0.3s; }
+  .navbar__link:hover {
+    background: #2fbf71; }
+
+#menu-icon {
+  font-size: 2.8rem;
+  z-index: 10001;
+  cursor: pointer;
+  display: none; }
