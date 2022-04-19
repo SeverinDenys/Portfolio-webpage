@@ -1,0 +1,53 @@
+.services {
+  padding: 2.4rem 14%;
+  &__center {
+    text-align: center;
+
+    & h3 {
+      color: $text-color;
+      font-size: 3rem;
+      font-weight: 300;
+      letter-spacing: 0.6rem;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4.4rem;
+
+    .services-row {
+      background: #0b0b13;
+      padding: 6rem 3.5rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: all 0.4s;
+
+      & i {
+        color: $main-color;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+      }
+
+      & h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        color: $text-color;
+      }
+
+      & p {
+        font-size: 1.8rem;
+        color: $second-main-color;
+        line-height: 3rem;
+      }
+    }
+
+    .services-row:hover {
+      transform: translateY(-1.5rem);
+      box-shadow: 0px 15px 30px 0px rgb(0, 0, 0 / 70%);
+    }
+  }
+}

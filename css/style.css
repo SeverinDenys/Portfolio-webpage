@@ -175,3 +175,41 @@ body {
   margin-left: 13rem;
   max-width: 100%;
   height: auto; }
+
+.services {
+  padding: 2.4rem 14%; }
+  .services__center {
+    text-align: center; }
+    .services__center h3 {
+      color: #fff;
+      font-size: 3rem;
+      font-weight: 300;
+      letter-spacing: 0.6rem; }
+  .services__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4.4rem; }
+    .services__content .services-row {
+      background: #0b0b13;
+      padding: 6rem 3.5rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: all 0.4s; }
+      .services__content .services-row i {
+        color: #2fbf71;
+        font-size: 3rem;
+        margin-bottom: 2rem; }
+      .services__content .services-row h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        color: #fff; }
+      .services__content .services-row p {
+        font-size: 1.8rem;
+        color: #ffffffcc;
+        line-height: 3rem; }
+    .services__content .services-row:hover {
+      transform: translateY(-1.5rem);
+      box-shadow: 0px 15px 30px 0px black; }
