@@ -21,3 +21,23 @@ body {
   background: $bg-color;
   color: $text-color;
 }
+
+.btn {
+  background: $main-color;
+  color: $text-color;
+  box-shadow: 4px 4px $text-color;
+  padding: 0 2.5rem;
+  line-height: 4.2rem;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all ease 0.2s;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  background: $text-color;
+  color: $main-color;
+  box-shadow: 4px 4px $main-color;
+}

@@ -77,6 +77,42 @@ body {
   background: #10101a;
   color: #fff; }
 
+.btn {
+  background: #2fbf71;
+  color: #fff;
+  box-shadow: 4px 4px #fff;
+  padding: 0 2.5rem;
+  line-height: 4.2rem;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all ease 0.2s;
+  font-weight: 400;
+  letter-spacing: 2px; }
+
+.btn:hover {
+  background: #fff;
+  color: #2fbf71;
+  box-shadow: 4px 4px #2fbf71; }
+
+.cta {
+  padding: 12rem 14%;
+  background: #0b0b13;
+  width: 100%;
+  padding: 15rem 0;
+  text-align: center;
+  margin: 10rem auto; }
+  .cta h4 {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-bottom: 3rem; }
+  .cta h2 {
+    color: #2fbf71;
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 4rem; }
+
 .header {
   position: fixed;
   width: 100%;
