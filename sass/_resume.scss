@@ -1,0 +1,60 @@
+.resume {
+  &__content {
+    padding: 2.4rem 14%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45rem, auto));
+    grid-gap: 3rem;
+    align-items: center;
+    margin-top: 4.4rem;
+
+    .box {
+      background: #0b0b13;
+      padding: 4rem 3rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: all 0.4s;
+
+      & h6 {
+        color: #3e4455;
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      & h4 {
+        color: $text-color;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1.7rem;
+        margin-top: 2.5rem;
+      }
+
+      & h5 {
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: $second-main-color;
+      }
+
+      & p {
+        font-size: $p-font;
+        font-weight: 300;
+        margin-bottom: 1.2rem;
+        line-height: 1.8rem;
+        color: $second-main-color;
+      }
+
+      &:hover {
+        transform: translateY(-1.5rem);
+        box-shadow: 0px 15px 30px 0px rgb(0, 0, 0 / 70%);
+      }
+    }
+  }
+
+  .center {
+    text-align: center;
+
+    & h3 {
+      font-size: 2rem;
+    }
+  }
+}

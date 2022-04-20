@@ -214,9 +214,9 @@ body {
 
 .services {
   padding: 2.4rem 14%; }
-  .services__center {
+  .services .center {
     text-align: center; }
-    .services__center h3 {
+    .services .center h3 {
       color: #fff;
       font-size: 3rem;
       font-weight: 300;
@@ -249,3 +249,46 @@ body {
     .services__content .services-row:hover {
       transform: translateY(-1.5rem);
       box-shadow: 0px 15px 30px 0px black; }
+
+.resume__content {
+  padding: 2.4rem 14%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45rem, auto));
+  grid-gap: 3rem;
+  align-items: center;
+  margin-top: 4.4rem; }
+  .resume__content .box {
+    background: #0b0b13;
+    padding: 4rem 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.4s; }
+    .resume__content .box h6 {
+      color: #3e4455;
+      font-size: 1.7rem;
+      font-weight: 600;
+      margin-bottom: 1rem; }
+    .resume__content .box h4 {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1.7rem;
+      margin-top: 2.5rem; }
+    .resume__content .box h5 {
+      font-size: 1.8rem;
+      font-weight: 500;
+      color: #ffffffcc; }
+    .resume__content .box p {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 1.2rem;
+      line-height: 1.8rem;
+      color: #ffffffcc; }
+    .resume__content .box:hover {
+      transform: translateY(-1.5rem);
+      box-shadow: 0px 15px 30px 0px black; }
+
+.resume .center {
+  text-align: center; }
+  .resume .center h3 {
+    font-size: 2rem; }
