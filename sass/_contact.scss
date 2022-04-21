@@ -1,0 +1,78 @@
+.contact {
+  padding: 12rem 14%;
+
+  &__center {
+    & h3 {
+      text-align: center;
+      font-size: 2rem;
+    }
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.2rem;
+
+    & form {
+      position: relative;
+      width: 55rem;
+
+      & input,
+      & textarea {
+        width: 100%;
+        padding: 2rem;
+        border: none;
+        outline: none;
+        background: #0b0b13;
+        color: $text-color;
+        margin-bottom: 0.5rem;
+        border-radius: 0.5rem;
+
+        &::placeholder,
+        &::placeholder {
+          color: $second-main-color;
+        }
+      }
+
+      & textarea {
+        resize: none;
+        height: 20rem;
+      }
+
+      .send-btn {
+        background: $main-color;
+        color: $text-color;
+        box-shadow: 4px 4px $text-color;
+        padding: 0 2.5rem;
+        line-height: 4.2rem;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.5rem;
+        transition: all ease 0.2s;
+        font-weight: 400;
+        letter-spacing: 2px;
+        cursor: pointer;
+
+        &:hover {
+          background: $text-color;
+          color: $main-color;
+          box-shadow: 4px 4px $main-color;
+        }
+      }
+    }
+  }
+}
+
+.copyright {
+  text-align: center;
+  padding: 3rem;
+  color: $second-main-color;
+  background: #0b0b13;
+  margin-top: 3rem;
+  line-height: 1.8rem;
+
+  &__text {
+    font-size: 1.5rem;
+  }
+}
