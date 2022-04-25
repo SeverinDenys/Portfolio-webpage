@@ -101,3 +101,14 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .about {
+    text-align: center;
+    margin-left: 10rem;
+
+    &__btn {
+      font-size: 5rem;
+    }
+  }
+}

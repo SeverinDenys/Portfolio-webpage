@@ -13,6 +13,11 @@ html {
   font-size: 62.5%; // 10px/16px = 0.625=62.5% = 1 rem = 10px
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
+
+  // how to fix white spaces?
+  // margin: 0;
+  // padding: 0;
+  // overflow-x: hidden;
 }
 
 body {
@@ -20,6 +25,11 @@ body {
   overflow-x: hidden;
   background: $bg-color;
   color: $text-color;
+
+  // how to fix white spaces?
+  // margin: 0;
+  // padding: 0;
+  // overflow-x: hidden;
 }
 
 .btn {

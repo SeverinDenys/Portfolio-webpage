@@ -20,3 +20,13 @@
     margin-bottom: 4rem;
   }
 }
+
+@media (max-width: 550px) {
+  .cta {
+    position: relative;
+    left: 7.5rem;
+
+    margin: 10rem 0;
+    width: 100vh;
+  }
+}

@@ -66,6 +66,13 @@
     .about__img {
       order: 2; } }
 
+@media (max-width: 600px) {
+  .about {
+    text-align: center;
+    margin-left: 10rem; }
+    .about__btn {
+      font-size: 5rem; } }
+
 *,
 *::before,
 *::after {
@@ -120,6 +127,13 @@ body {
     font-size: 4rem;
     font-weight: 300;
     margin-bottom: 4rem; }
+
+@media (max-width: 550px) {
+  .cta {
+    position: relative;
+    left: 7.5rem;
+    margin: 10rem 0;
+    width: 100vh; } }
 
 .contact {
   padding: 12rem 14%; }
@@ -246,9 +260,10 @@ body {
       display: block;
       padding: 1rem;
       border-left: 2px solid #2fbf71;
-      margin: 1rem; }
-    .navbar:active {
-      top: 100%; } }
+      margin: 1rem; } }
+
+.navbar.active {
+  top: 100%; }
 
 .home {
   padding: 12rem 14%;
@@ -378,6 +393,14 @@ section {
     .services__content .services-row:hover {
       transform: translateY(-1.5rem);
       box-shadow: 0px 15px 30px 0px black; }
+
+@media (max-width: 795px) {
+  .services {
+    font-size: 16rem;
+    margin-left: 4rem; }
+    .services .center h3 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem; } }
 
 .resume__content {
   padding: 2.4rem 14%;

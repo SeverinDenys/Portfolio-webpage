@@ -51,3 +51,17 @@
     }
   }
 }
+
+@media (max-width: 795px) {
+  .services {
+    font-size: 16rem;
+    margin-left: 4rem;
+
+    & .center {
+      & h3 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+}
