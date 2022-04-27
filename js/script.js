@@ -6,7 +6,7 @@ menu.onclick = () => {
   navbar.classList.toggle("active");
 };
 
-window.onscroll = () => {
-  menu.classList.toggle("bx-x");
-  navbar.classList.toggle("active");
-};
+// window.onscroll = () => {
+//   menu.classList.toggle("bx-x");
+//   navbar.classList.toggle("active");
+// };
